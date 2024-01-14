@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+h1{
+   font-size: 50px; 
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   background-color: black;
+   color: #ffffff;
+}
+
+img{
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+    display: block  ;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+ body{
+    background: url(../images/fondportfolio.webp);
+
+ }
+
+ section .sous{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+ }
+ section{
+    color: black;
+ }
+
+ a{
+    color: black;
+    ;
+    font-size: 20px;
+ }
